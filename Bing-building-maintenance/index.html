@@ -1,0 +1,163 @@
+<html>
+<head>
+    <style>
+        /* CSS code for the web site */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 200px;
+            height: 100px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            color: white;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: yellow;
+        }
+
+        .banner {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            width: 250px;
+            height: 250px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px #999;
+            background-color: white;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .card p {
+            margin: 0;
+            padding: 10px;
+        }
+
+        .card button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #444;
+        }
+
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" alt="Logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <img src="banner.jpg" alt="Banner" class="banner">
+        <div class="content">
+            <div class="card">
+                <img src="plumbing.jpg" alt="Plumbing">
+                <h3>Plumbing</h3>
+                <p>We offer professional plumbing services for your home or office. Whether you need a leak fixed, a drain unclogged, or a new faucet installed, we can handle it.</p>
+                <button>Book Now</button>
+            </div>
+            <div class="card">
+                <img src="electrical.jpg" alt="Electrical">
+                <h3>Electrical</h3>
+                <p>We offer expert electrical services for your home or office. Whether you need a light switch replaced, a circuit breaker repaired, or a new outlet installed, we can handle it.</p>
+                <button>Book Now</button>
+            </div>
+            <div class="card">
+                <img src="painting.jpg" alt="Painting">
+                <h3>Painting</h3>
+                <p>We offer quality painting services for your home or office. Whether you need a wall painted, a ceiling coated, or a furniture refinished, we can handle it.</p>
+                <button>Book Now</button>
+            </div>
+            <div class="card">
+                <img src="cleaning.jpg" alt="Cleaning">
+                <h3>Cleaning</h3>
+                <p>We offer reliable cleaning services for your home or office. Whether you need a carpet vacuumed, a window washed, or a kitchen sanitized, we can handle it.</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2023 by Building Maintenance. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>

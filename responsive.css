@@ -1,0 +1,27 @@
+p {
+  margin-left: 0.5em
+}
+
+.row {
+  width: 90%;
+}
+
+.col-1 {
+  float: left;
+  width: 8.33333%;
+}
+
+.col-4 {
+  float: left;
+  width: 33.33333%;
+  }
+
+.col-12 {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}

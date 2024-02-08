@@ -1,0 +1,17 @@
+body {
+  color:rgba(255,0,0,1.0);
+  background-color:#ffffe0;
+}
+
+main {
+  color:blue;
+}
+
+h2[role] {
+  color: green;
+}
+
+aside em {
+  color: red;
+  font-weight: bold;
+}
